@@ -1,0 +1,45 @@
+# ignore dependencies and files
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.vs/
+.vscode/
+*.swp
+*.swo
+
+# NuGet
+packages/
+*.nupkg
+.nuget/
+NuGet.exe
+
+# local settings
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# files Rider/ReSharper
+.idea/
+*.sln.iml
+
+# Временные файлы
+*.tmp
+*.temp
+
+# Логи и дампы
+*.log
+*.dump
+
+# Файлы покрытия тестов
+coverage/
+*.coverage
+*.lcov
+
+# 
+publish/
+out/
+
+# Docker files
+docker-compose.override.yml
